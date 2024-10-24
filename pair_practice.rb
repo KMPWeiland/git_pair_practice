@@ -1,8 +1,11 @@
 class PairPractice
-    attr_reader: day
+    attr_reader :day, 
+                :time,
+                :commits
     
-    initialize(day)
+    initialize(day, time = :noon)
         @day = day
+        @time = time
         @commits = []
     end
 end
