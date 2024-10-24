@@ -1,4 +1,4 @@
-class PairPractice
+class Pairs
     attr_reader: day
     
     initialize(day)
